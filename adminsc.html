@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RMS Project Procurement Management Plan</title>
+    <link rel="stylesheet" href="assets/dash.css" />
+    <link rel="stylesheet" href="ssupplyc.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="logo-details">
+          <div class="icon" style="font-size: 40px">RMS</div>
+          <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <ul class="sidebar-nav">
+          <li>
+            <a href="admindash.html">
+              <i class="bx bx-grid-alt" id="icons"></i>
+              <span class="links_name">Dashboard</span>
+            </a>
+            <span class="tooltip">Dashboard</span>
+          </li>
+          <li>
+            <a href="admininv.html">
+              <i class="bx bx-box" id="icons"></i>
+              <span class="links_name">Inventory</span>
+            </a>
+            <span class="tooltip">Inventory</span>
+          </li>
+          <li>
+            <a href="adminppmp.html">
+              <i class="bx bxs-edit" id="icons"></i>
+              <span class="links_name">PPMP</span>
+            </a>
+            <span class="tooltip">PPMP</span>
+          </li>
+          <li class="active">
+            <a href="adminsc.html">
+              <i class="bx bx-shape-circle" id="icons"></i>
+              <span class="links_name">Supply Chain</span>
+            </a>
+            <span class="tooltip">Supply Chain</span>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="bx bx-log-out-circle" id="icons"></i>
+              <span class="links_name">Logout</span>
+            </a>
+            <span class="tooltip">Logout</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <header class="sc-dashboard-header">
+          <div class="sc-date-time">
+            <p>May 10, 2024</p>
+            <p>8:00 AM</p>
+          </div>
+          <button class="download-btn">Download Report</button>
+        </header>
+
+        <section class="sc-purchase-request">
+          <div class="sc-header">
+            <h2>Project Procurement Management Plan</h2>
+          </div>
+          <table class="sc-supply-table">
+            <thead>
+              <tr>
+                <th>Name of the item</th>
+                <th>Category</th>
+                <th>Quantity (by pieces)</th>
+                <th>Date Requested</th>
+                <th>Date Received</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Augmentin 525 Duo Tablet</td>
+                <td>Medicine</td>
+                <td>8</td>
+                <td>06/05/2024</td>
+                <td>06/08/2024</td>
+                <td>Delivered</td>
+              </tr>
+              <tr>
+                <td>Disposable Syringes</td>
+                <td>Syringe</td>
+                <td>40</td>
+                <td>06/05/2024</td>
+                <td>06/13/2024</td>
+                <td>Delivered</td>
+              </tr>
+              <tr>
+                <td>Endotracheal Tube 4.0</td>
+                <td>Med Equipment</td>
+                <td>85</td>
+                <td>06/05/2024</td>
+                <td>06/30/2024</td>
+                <td>Delivered</td>
+              </tr>
+              <tr>
+                <td>Azee 500 Tablet</td>
+                <td>Medicine</td>
+                <td>75</td>
+                <td>06/05/2024</td>
+                <td>06/10/2024</td>
+                <td>Delivered</td>
+              </tr>
+              <tr>
+                <td>Cautery Tip</td>
+                <td>Med Equipment</td>
+                <td>44</td>
+                <td>06/11/2024</td>
+                <td>--</td>
+                <td>Cancelled</td>
+              </tr>
+              <tr>
+                <td>Oxygen Cannula</td>
+                <td>Med Equipment</td>
+                <td>65</td>
+                <td>06/05/2024</td>
+                <td>--</td>
+                <td>Delayed</td>
+              </tr>
+              <tr>
+                <td>Amoxycillin 625 Tablet</td>
+                <td>Medicine</td>
+                <td>180</td>
+                <td>06/08/2024</td>
+                <td>--</td>
+                <td>Requested</td>
+              </tr>
+              <tr>
+                <td>Avil 25 Tablet</td>
+                <td>Medicine</td>
+                <td>270</td>
+                <td>06/14/2024</td>
+                <td>--</td>
+                <td>Requested</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+
+    <script src="styles/js/app.js"></script>
+  </body>
+</html>
